@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+/* login area start */
+#login-area {
+    padding: 5% 5% 5% 5%;
+}
+.submit-area {
+    margin: 90px 0 0 0;
+    padding: 5% 10%;
+    box-shadow: 5px 5px 10px gray;
+}
+.input-custom {
+    margin-bottom: 15px;
+}
+/* login area end */
+/* transaction area start */
+#transaction-area {
+    display: none;
+    padding: 0 10%;
+    margin-top: 8%;
+}
+.deposit {
+    background-color: blueviolet;
+}
+.Withdraw {
+    background-color: lightsalmon;
+}
+.Balance {
+    background-color: orange;
+}
+.status {
+    margin: 0 20px;
+    border-radius: 10px;
+    padding: 5%;
+    color: #ffffff;
+}
+.aoumnt-btn {
+    margin-top: 10px;
+}
+.put-deposit-amount {
+    box-shadow: 5px 5px 10px gray;
+    padding: 52px 38px;
+    margin-top: 60px;
+}
+.put-withdraw-amount {
+    box-shadow: 5px 5px 10px gray;
+    padding: 52px 38px;
+    margin-top: 60px;
+}
+/* transaction area end */

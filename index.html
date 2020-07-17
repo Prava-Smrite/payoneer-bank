@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome To Our Payoneer Bank</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- login area start -->
+    <div id="login-area">
+        <h2 class="text-center">Welcome To Our Payoneer Bank</h2>
+        <div class="submit-area">
+            <h4>Login</h4>
+            <input type="text" class="form-control input-custom" placeholder="Email">
+            <input type="password" class="form-control input-custom" placeholder="Password">
+            <button id="login" class="btn btn-success">Enter</button>
+        </div>
+    </div>
+    <!-- login area end -->
+    <!-- transaction area start -->
+    <div id="transaction-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="deposit status">
+                        <h4>Deposit</h4>
+                        <h2>$ <span id="deposit-amount">00</span></h2>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="Withdraw status">
+                        <h4>Withdraw</h4>
+                        <h2>$00</h2>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="Balance status">
+                        <h4>Balance</h4>
+                        <h2>$ <span id="balance-amount">00</span></h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="put-deposit-amount">
+                        <h4>Deposit</h4>
+                        <input type="text" class="form-control input-custom" id="input-amount"
+                            placeholder="$amount you want to deposit">
+                        <button id="diposit-btn" class="btn btn-success aoumnt-btn">Deposit</button>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="put-withdraw-amount">
+                        <h4>Withdraw</h4>
+                        <input type="text" class="form-control input-custom" placeholder="$amount you want to deposit">
+                        <button class="btn btn-success aoumnt-btn">Withdraw</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- transaction area end -->
+    <script src="script.js"></script>
+</body>
+</html>
